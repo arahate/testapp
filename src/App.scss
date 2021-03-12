@@ -1,0 +1,87 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+$maincolor: #fff;
+$containercolor: #f8f8f8;
+$fontcolor: #000;
+$cardfontcolor: #fff;
+$font: "Helvetica, sans-serif";
+$fontSize: 18px;
+$width: 680px;
+
+.body {
+  color: $fontcolor;
+  font-family: $font;
+  font-size: $fontSize;
+}
+
+.App {
+  text-align: center;
+
+  .container {
+    color: $fontcolor;
+    background-color: $containercolor;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+
+  .main {
+    background-color: $maincolor;
+    margin: 20px;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  .titleinfo {
+    text-align: left;
+  }
+
+  .p {
+    font-size: 8px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-top: 60px;
+    color: $cardfontcolor;
+  }
+
+  .card-header {
+    text-align: left;
+    border-bottom: 0;
+  }
+
+  .card-footer {
+    text-align: left;
+    border-top: 0;
+  }
+
+  .card-body {
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  .addcard {
+    justify-content: flex-end;
+    padding-top: 30px;
+    flex-direction: "row";
+  }
+
+  a {
+    color: $cardfontcolor;
+  }
+
+  .text {
+    margin-left: 10px;
+    width: 100px;
+  }
+}

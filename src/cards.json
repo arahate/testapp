@@ -1,0 +1,55 @@
+{
+  "boxtitle": "Related Articles",
+  "boxtext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ligula tellus. Vivamus a orci at lectus mattis dignissim. Nulla ullamcorper leo et dolor varius accumsan vitae et dui. Proin semper maximus tortor sed posuere. Nunc ultrices accumsan diam. Suspendisse iaculis dui libero, ut porttitor mi bibendum ut. Praesent a quam mattis, luctus lacus sit amet, ullamcorper diam. Praesent eu convallis nibh. In ac ligula et mauris finibus auctor. Nunc tristique fringilla condimentum. Ut a ultricies sapien, eget efficitur nisi. Curabitur sodales ligula et volutpat bibendum. Vestibulum nec dui vel augue mattis aliquam vitae eu mi. In hac habitasse platea dictumst.",
+  "defaultcards": 3,
+  "cards": [
+    {
+      "id": 1,
+      "cardDate": "28 Sep 2020",
+      "title": "Title 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ligula tellus. Vivamus a orci at lectus mattis dignissim. Nulla ullamcorper leo et dolor varius accumsan vitae et dui. Proin semper maximus tortor sed posuere. Nunc ultrices accumsan diam. Suspendisse iaculis dui libero, ut porttitor mi bibendum ut. Praesent a quam mattis, luctus lacus sit amet, ullamcorper diam. Praesent eu convallis nibh. In ac ligula et mauris finibus auctor. Nunc tristique fringilla condimentum. Ut a ultricies sapien, eget efficitur nisi. Curabitur sodales ligula et volutpat bibendum. Vestibulum nec dui vel augue mattis aliquam vitae eu mi. In hac habitasse platea dictumst.",
+      "buttonText": "Read More",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "cardDate": "29 Sep 2020",
+      "title": "Title 2",
+      "description": "Consectetur adipiscing elit. Sed ac ligula tellus. Vivamus a orci at lectus mattis dignissim. Nulla ullamcorper leo et dolor varius accumsan vitae et dui. Proin semper maximus tortor sed posuere. Nunc ultrices accumsan diam. Suspendisse iaculis dui libero, ut porttitor mi bibendum ut. Praesent a quam mattis, luctus lacus sit amet, ullamcorper diam. Praesent eu convallis nibh. In ac ligula et mauris finibus auctor. Nunc tristique fringilla condimentum. Ut a ultricies sapien, eget efficitur nisi. Curabitur sodales ligula et volutpat bibendum. Vestibulum nec dui vel augue mattis aliquam vitae eu mi. In hac habitasse platea dictumst.",
+      "buttonText": "Read More",
+      "color": "blue"
+    },
+    {
+      "id": 3,
+      "title": "Title 3",
+      "cardDate": "30 Sep 2020",
+      "description": "Proin sed augue placerat felis eleifend varius. Maecenas dictum varius urna, vel sagittis tortor pellentesque quis. Ut dignissim ex sit amet elit aliquam, eget tempus massa cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse tristique augue ut lorem blandit, sit amet sollicitudin nisl tincidunt. Donec rhoncus tempor consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas sem elit, rutrum ut massa eu, fermentum placerat sem. Nullam lacinia in orci vel tempor. Pellentesque auctor sed ante sed tempor. Ut condimentum lectus sit amet commodo vestibulum. Duis interdum sapien erat, at porta lorem congue pharetra. Aenean eros lorem, accumsan at nisi non, porta elementum mauris. Donec non nibh id felis luctus vestibulum ut vitae purus. Phasellus et lorem felis. Etiam imperdiet rutrum arcu, at vulputate tellus vestibulum eu..",
+      "buttonText": "Read More",
+      "color": "green"
+    },
+    {
+      "id": 4,
+      "cardDate": "1 Oct 2020",
+      "title": "Title 4",
+      "description": "Donec posuere nulla quis nunc congue, quis blandit dolor congue. Vivamus ac ipsum faucibus, eleifend odio quis, finibus massa. Donec in lacus maximus nisi molestie faucibus nec non diam. Nam tincidunt sodales velit, id molestie risus imperdiet at. Suspendisse vel mi ac justo aliquam volutpat. Aenean nunc erat, fermentum et eros ut, eleifend aliquam libero. Donec faucibus, mi quis consequat rhoncus, ante enim imperdiet dolor, nec convallis massa turpis sed risus. Pellentesque condimentum molestie dolor. Donec ut aliquet quam, eget sollicitudin ligula. Mauris tempor placerat justo, et porttitor enim vestibulum at. Nulla euismod viverra hendrerit. Mauris sollicitudin placerat purus non sollicitudin. Sed sit amet ullamcorper purus. Nunc mattis dolor nec orci rhoncus fringilla. Duis vel dui ac nisl viverra tempus in a nunc..",
+      "buttonText": "Read More",
+      "color": "cyan"
+    },
+    {
+      "id": 5,
+      "cardDate": "2 Oct 2020",
+      "title": "Title 5",
+      "description": "Nunc pharetra magna lectus, quis sodales augue dignissim a. Nullam quis dictum quam. Phasellus nunc elit, pharetra eu feugiat ac, sagittis eget tortor. Cras mattis nibh bibendum cursus elementum. Praesent tincidunt felis eget lectus viverra, non euismod quam ultricies. Nulla luctus erat molestie tellus sagittis scelerisque. In dignissim condimentum tortor, et laoreet augue varius ac. Nulla nunc eros, finibus in eros at, suscipit malesuada ipsum. Nam molestie eleifend odio id laoreet. Aenean dictum felis sit amet orci lobortis, sed sollicitudin lectus condimentum. Vivamus quis vulputate arcu. Donec posuere erat ut velit fringilla, eget elementum massa congue. Nam dolor ligula, placerat eget aliquet vel, ultricies luctus elit. Morbi vitae justo purus. Quisque feugiat sapien a dui ullamcorper, id malesuada risus auctor..",
+      "buttonText": "Read More",
+      "color": "yellow"
+    },
+    {
+      "id": 6,
+      "cardDate": "3 Oct 2020",
+      "title": "Title 6",
+      "description": "Duis bibendum at lacus vitae egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse elit tortor, tristique eget quam nec, molestie pretium orci. Vestibulum at justo in nulla vehicula lobortis. Etiam molestie bibendum nulla a condimentum. Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque quis odio mattis, tempus ligula at, rhoncus neque. Curabitur iaculis magna at facilisis scelerisque. Phasellus viverra porta lobortis. Cras viverra leo diam, a euismod lacus efficitur vel. Curabitur mollis tincidunt nulla sit amet lobortis. Sed in aliquam quam. Pellentesque placerat, dui at congue luctus, justo nibh pellentesque est, nec bibendum ex sapien non diam. Sed a aliquam nulla, quis malesuada dolor. Suspendisse eget leo leo.",
+      "buttonText": "Read More",
+      "color": "orange"
+    }
+  ]
+}
