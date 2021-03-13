@@ -36,7 +36,7 @@ const CardList = ({ cardInfo }) => {
 
   return (
     <Container fluid>
-      <h2 className="text-left pt-5">{boxtitle}</h2>
+      <h2 className="text-left pt-5 text-danger">{boxtitle}</h2>
       <p className="text-left">{boxtext}</p>
       <Row className="flex-wrap">{renderContent(cards)}</Row>
       <Row className="d-flex justify-content-end pt-3 flex-row">

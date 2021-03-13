@@ -6,15 +6,15 @@ const DynamicCard = ({ card }) => {
   const { cardDate, title, description, buttonText, color } = card;
   return (
     <Col sm={4}>
-      <Card style={{ backgroundColor: `${color}` }}>
-        <Card.Header>
+      <Card style={{ backgroundColor: `${color}` }} className="my-3">
+        <Card.Header className="border-bottom-0">
           <h5>{cardDate}</h5>
           <h1 className="text-left">{title}</h1>
         </Card.Header>
         <Card.Body className="text-left pt-3 overflow-auto">
           <p className="text-left">{description}</p>
         </Card.Body>
-        <Card.Footer>
+        <Card.Footer className="border-top-0">
           <Button variant="outline-light">{buttonText}</Button>
         </Card.Footer>
       </Card>
