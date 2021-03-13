@@ -1,28 +1,36 @@
 import React from "react";
+import { Col, Card, Button } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 const DynamicCard = ({ card }) => {
   const { cardDate, title, description, buttonText, color } = card;
   return (
-    <div className="col-sm-4">
-      <div className="card" style={{ backgroundColor: `${color}` }}>
-        <div className="card-header">
+    <Col sm={4}>
+      <Card style={{ backgroundColor: `${color}` }}>
+        <Card.Header>
           <h5>{cardDate}</h5>
-          <h1 className="card-title">{title}</h1>
-        </div>
-        <div className="card-body scroll">
-          <p className="card-text">{description}</p>
-        </div>
-        <div className="card-footer">
-          <a href="/" className="btn btn-outline-light">
-            {buttonText}
-          </a>
-        </div>
-      </div>
-    </div>
+          <h1 className="text-left">{title}</h1>
+        </Card.Header>
+        <Card.Body className="text-left pt-3 overflow-auto">
+          <p className="text-left">{description}</p>
+        </Card.Body>
+        <Card.Footer>
+          <Button variant="outline-light">{buttonText}</Button>
+        </Card.Footer>
+      </Card>
+    </Col>
   );
 };
 
-export default DynamicCard;
+DynamicCard.propTypes = {
+  cardInfo: PropTypes.shape({
+    cardDate: PropTypes.string,
+    title: PropTypes.string,
+    description: PropTypes.string,
+    buttonText: PropTypes.string,
+    color: PropTypes.string,
+  }),
+};
 
 DynamicCard.defaultProps = {
   cardDate: "",
@@ -31,3 +39,5 @@ DynamicCard.defaultProps = {
   buttonText: "",
   color: "",
 };
+
+export default DynamicCard;

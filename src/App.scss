@@ -14,74 +14,70 @@ $width: 680px;
   font-size: $fontSize;
 }
 
-.App {
-  text-align: center;
+.container {
+  color: $fontcolor;
+  background-color: $containercolor;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
 
-  .container {
-    color: $fontcolor;
-    background-color: $containercolor;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-  }
+.main {
+  background-color: $maincolor;
+  margin: 20px;
+}
 
-  .main {
-    background-color: $maincolor;
-    margin: 20px;
-  }
+.title {
+  text-align: left;
+}
 
-  .title {
-    text-align: left;
-  }
+.titleinfo {
+  text-align: left;
+}
 
-  .titleinfo {
-    text-align: left;
-  }
+.p {
+  font-size: 8px;
+}
 
-  .p {
-    font-size: 8px;
-  }
+.cards {
+  flex-wrap: wrap;
+}
 
-  .cards {
-    flex-wrap: wrap;
-  }
+.card {
+  margin-top: 60px;
+  color: $cardfontcolor;
+}
 
-  .card {
-    margin-top: 60px;
-    color: $cardfontcolor;
-  }
+.card-header {
+  text-align: left;
+  border-bottom: 0;
+}
 
-  .card-header {
-    text-align: left;
-    border-bottom: 0;
-  }
+.card-footer {
+  text-align: left;
+  border-top: 0;
+}
 
-  .card-footer {
-    text-align: left;
-    border-top: 0;
-  }
+.card-body {
+  text-align: left;
+  max-height: 200px;
+  overflow-y: auto;
+}
 
-  .card-body {
-    text-align: left;
-    max-height: 200px;
-    overflow-y: auto;
-  }
+.addcard {
+  justify-content: flex-end;
+  padding-top: 30px;
+  flex-direction: "row";
+}
 
-  .addcard {
-    justify-content: flex-end;
-    padding-top: 30px;
-    flex-direction: "row";
-  }
+a {
+  color: $cardfontcolor;
+}
 
-  a {
-    color: $cardfontcolor;
-  }
-
-  .text {
-    margin-left: 10px;
-    width: 100px;
-  }
+.text {
+  margin-left: 10px;
+  width: 100px;
 }

@@ -1,5 +1,14 @@
 import React, { useState, useRef } from "react";
 import DynamicCard from "../DynamicCard";
+import {
+  Button,
+  Container,
+  Row,
+  Col,
+  InputGroup,
+  FormControl,
+} from "react-bootstrap";
+import PropTypes from "prop-types";
 
 const CardList = ({ cardInfo }) => {
   const { id, boxtitle, boxtext, defaultcards, cards } = cardInfo;
@@ -26,29 +35,29 @@ const CardList = ({ cardInfo }) => {
   };
 
   return (
-    <div className="main">
-      <h2 className="title">{boxtitle}</h2>
-      <div className="titleinfo">{boxtext}</div>
-      <div className="row cards">{renderContent(cards)}</div>
-      <div className="row addcard">
-        <div className="col-sm-1 col-lg-3">
-          <button className="btn-outline-danger rounded" onClick={handleClick}>
-            Read more
-          </button>
-          <input
-            className="text"
-            ref={inputtext}
-            type="text"
-            text={count}
-            onBlur={(e) => blur(e)}
-          />
-        </div>
-      </div>
-    </div>
+    <Container fluid>
+      <h2 className="text-left pt-5">{boxtitle}</h2>
+      <p className="text-left">{boxtext}</p>
+      <Row className="flex-wrap">{renderContent(cards)}</Row>
+      <Row className="d-flex justify-content-end pt-3 flex-row">
+        <Col sm={1} lg={3}>
+          <InputGroup className="mb-3">
+            <InputGroup.Prepend>
+              <Button variant="outline-danger" onClick={handleClick}>
+                Read more
+              </Button>
+            </InputGroup.Prepend>
+            <FormControl
+              ref={inputtext}
+              onBlur={(e) => blur(e)}
+              className="ml-2"
+            />
+          </InputGroup>
+        </Col>
+      </Row>
+    </Container>
   );
 };
-
-export default CardList;
 
 CardList.defaultProps = {
   id: 0,
@@ -57,3 +66,23 @@ CardList.defaultProps = {
   defaultcards: 0,
   cards: [],
 };
+
+CardList.propTypes = {
+  cardInfo: PropTypes.shape({
+    id: PropTypes.number,
+    boxtitle: PropTypes.string,
+    boxtext: PropTypes.string,
+    defaultcards: PropTypes.number,
+    cards: PropTypes.arrayOf(
+      PropTypes.shape({
+        cardDate: PropTypes.string,
+        title: PropTypes.string,
+        description: PropTypes.string,
+        buttonText: PropTypes.string,
+        color: PropTypes.string,
+      })
+    ),
+  }),
+};
+
+export default CardList;
