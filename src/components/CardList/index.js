@@ -36,11 +36,17 @@ const CardList = ({ cardInfo }) => {
 
   return (
     <Container fluid>
-      <h2 className="text-left pt-5 text-danger">{boxtitle}</h2>
-      <p className="text-left">{boxtext}</p>
-      <Row className="flex-wrap">{renderContent(cards)}</Row>
+      <Row>
+        <Col lg={1} className="d-none d-xl-block"></Col>
+        <Col>
+          <h2 className="text-left pt-5 text-danger">{boxtitle}</h2>
+          <p className="text-left">{boxtext}</p>
+          <Row className="flex-wrap">{renderContent(cards)}</Row>
+        </Col>
+        <Col lg={1} className="d-none d-xl-block"></Col>
+      </Row>
       <Row className="d-flex justify-content-end pt-3 flex-row">
-        <Col sm={12} md={6} lg={6}>
+        <Col sm={4} md={6} lg={6}>
           <InputGroup className="mb-3">
             <InputGroup.Prepend>
               <Button variant="outline-danger" onClick={handleClick}>
