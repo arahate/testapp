@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const DynamicCard = ({ card }) => {
   const { cardDate, title, description, buttonText, color } = card;
   return (
-    <Col sm={4}>
+    <Col md={6} xs={12} lg={4}>
       <Card style={{ backgroundColor: `${color}` }} className="my-3">
         <Card.Header className="border-bottom-0">
           <h5>{cardDate}</h5>
