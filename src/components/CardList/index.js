@@ -40,7 +40,7 @@ const CardList = ({ cardInfo }) => {
       <p className="text-left">{boxtext}</p>
       <Row className="flex-wrap">{renderContent(cards)}</Row>
       <Row className="d-flex justify-content-end pt-3 flex-row">
-        <Col>
+        <Col sm={12} md={6} lg={6}>
           <InputGroup className="mb-3">
             <InputGroup.Prepend>
               <Button variant="outline-danger" onClick={handleClick}>
